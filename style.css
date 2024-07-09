@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(103, 132, 150);
+}
+.searchbar{
+    border: 2px solid;
+    padding: 20px;
+    margin-top: 15%;
+    background-color: lightblue;
+}
+input{
+    height: 30px;
+    font-size: 20px;
+}
+button{
+    padding: 4px;
+    font-size: 20px;
+    background-color: gray;
+}
+button:hover{
+    background-color: lightgrey;
+}
+input:focus{
+    background-color: bisque;
+}
